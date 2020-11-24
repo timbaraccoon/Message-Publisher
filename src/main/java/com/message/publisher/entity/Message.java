@@ -1,14 +1,13 @@
 package com.message.publisher.entity;
 
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Component;
+import lombok.*;
 
 import java.sql.Timestamp;
 
-@Component
-@Data
 @RequiredArgsConstructor
+@ToString
+@Getter
+@EqualsAndHashCode
 public class Message {
 
     private final int MessageId;

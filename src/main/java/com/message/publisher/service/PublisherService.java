@@ -4,5 +4,5 @@ import com.message.publisher.entity.Message;
 
 public interface PublisherService {
 
-    Message sendMessages();
+    Message sendMessage();
 }
