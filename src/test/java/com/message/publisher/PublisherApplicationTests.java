@@ -8,6 +8,7 @@ class PublisherApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }

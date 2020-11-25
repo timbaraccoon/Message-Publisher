@@ -16,7 +16,7 @@ public class PublisherServiceImpl implements PublisherService {
     }
 
     @Override
-    public Message sendMessage() {
+    public Message getMessage() {
         return messageGenerator.generateMessage();
     }
 }
